@@ -4,6 +4,9 @@ Once you've created a new branch and made some changes you then probably want to
 
 So, you're sitting here at your command prompt. Changes have been made. They've been added. You've commited them you your branch. Let's do a PR!
 
+`git request-pull v1.0 git@github.com:jamescochran/Hi-There.git master`
+
+The following is doing a PR, seting the version (I guess?), setting the repos URL (not sure if this is 100% needed, and telling it to do the PR on master.
 
 
 
@@ -12,5 +15,5 @@ So, you're sitting here at your command prompt. Changes have been made. They've 
 
 
 
-
-This one was a bit of a doozy for me and I leaned on RTFM heavily: https://cli.github.com/manual/gh_pr_merge
+This one was a bit of a doozy for me and I leaned on RTFM heavily: 
+https://git-scm.com/docs/git-request-pull
